@@ -1,0 +1,57 @@
+/* Pseudo Classes */                                
+
+
+.hoverBtn:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.activeBtn:active {
+    background-color: darkgray;
+    color: black;
+}
+
+.focusInput:focus{
+    color: chartreuse;
+    border-width: 5px;
+}
+
+.visitedlink:visited{
+    color: deeppink;
+}
+
+/*Pseudo-Elements */
+.bigLetter::first-letter{
+    font-size: 40px;
+}
+
+.line1::first-line{
+color: darkorange;
+}
+
+.beforeAndAfter::after{
+    content: "before";
+    color: red;
+
+}
+
+.beforeAndAfter::before{
+    content: "before";
+    color: blue;
+
+}
+
+.selectParts::selection {
+    background-color: darkorange;
+}
+
+
+/* Earlier Rule */
+
+.cascade{
+    background-color: blue;
+    color: white;
+
+}
+

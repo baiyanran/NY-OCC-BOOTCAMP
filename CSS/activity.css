@@ -1,0 +1,12 @@
+.font-family-size{
+font: bold;
+font-size: large;
+}
+
+.font-Exploring {
+    font-style: italic;
+    font-variant: small-caps;
+    color: orange;
+    background-color: orange;
+    text-shadow: 30px;
+}
