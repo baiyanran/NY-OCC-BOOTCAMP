@@ -1,0 +1,5 @@
+gitCommands.txt
+git -v = to check git version
+git init = intitialize git repo
+git confit --global user.name "username"= setting up username
+git confit --global user.name "email"= setting up email
